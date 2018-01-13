@@ -1,7 +1,7 @@
-# matchscore
-[![Travis](https://img.shields.io/travis/mpt0/node-matchscore.svg?style=flat-square)]()
-[![npm](https://img.shields.io/npm/v/matchscore.svg?style=flat-square)]()
-[![npm](https://img.shields.io/npm/l/matchscore.svg?style=flat-square)]()
+# mscore
+[![Travis](https://img.shields.io/travis/mpt0/node-mscore.svg?style=flat-square)]()
+[![npm](https://img.shields.io/npm/v/mscore.svg?style=flat-square)]()
+[![npm](https://img.shields.io/npm/l/mscore.svg?style=flat-square)]()
 
 Configurable fuzzy string matching and scoring
 

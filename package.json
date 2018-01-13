@@ -1,5 +1,5 @@
 {
-	"name": "matchscore",
+	"name": "mscore",
 	"version": "1.0.0",
 	"description": "Configurable fuzzy string matching and scoring",
 	"main": "lib",
@@ -7,7 +7,7 @@
 		"test": "xo && ava",
 		"dev": "ava --watch --verbose"
 	},
-	"repository": "github:mpt0/node-matchscore",
+	"repository": "github:mpt0/node-mscore",
 	"author": "Max J. Polster",
 	"license": "MIT",
 	"devDependencies": {
