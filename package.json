@@ -1,0 +1,17 @@
+{
+	"name": "matchscore",
+	"version": "1.0.0",
+	"description": "Configurable fuzzy string matching and scoring",
+	"main": "lib",
+	"scripts": {
+		"test": "xo && ava",
+		"dev": "ava --watch --verbose"
+	},
+	"repository": "github:mpt0/node-matchscore",
+	"author": "Max J. Polster",
+	"license": "MIT",
+	"devDependencies": {
+		"ava": "^0.24.0",
+		"xo": "^0.18.2"
+	}
+}
