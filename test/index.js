@@ -32,5 +32,3 @@ test('Empty query', t => {
 	t.is(score('abc', ''), 0);
 	t.is(score('', ''), 0);
 });
-
-console.log(score('bacd', 'bc'));
