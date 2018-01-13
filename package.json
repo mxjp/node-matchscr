@@ -1,5 +1,5 @@
 {
-	"name": "mscore",
+	"name": "matchscr",
 	"version": "1.0.0",
 	"description": "Configurable fuzzy string matching and scoring",
 	"main": "lib",

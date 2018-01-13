@@ -1,18 +1,18 @@
-# mscore
-[![Travis](https://img.shields.io/travis/mpt0/node-mscore.svg?style=flat-square)]()
-[![npm](https://img.shields.io/npm/v/mscore.svg?style=flat-square)]()
-[![npm](https://img.shields.io/npm/l/mscore.svg?style=flat-square)]()
+# matchscr
+[![Travis](https://img.shields.io/travis/mpt0/node-matchscr.svg?style=flat-square)]()
+[![npm](https://img.shields.io/npm/v/matchscr.svg?style=flat-square)]()
+[![npm](https://img.shields.io/npm/l/matchscr.svg?style=flat-square)]()
 
 Configurable fuzzy string matching and scoring
 
 ## Installation
 ```js
-npm install matchscore
+npm install matchscr
 ```
 
 ## Usage
 ```js
-const score = require('matchscore');
+const score = require('matchscr');
 
 score('Hello World!', 'world'); // -> 1
 score('Hello World!', 'lll'); // ~> 0.745
@@ -25,7 +25,7 @@ The returned score is a number between 0 and 1 where 0 stands for no match and 1
 The config function returns a different score function with the custom configuration applied.
 The configuration below is the default.
 ```js
-const score = require('matchscore').config({
+const score = require('matchscr').config({
 	ignoreCase: true
 });
 ```
